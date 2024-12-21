@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weight Loss opt in page</title>
     <link rel="stylesheet" href="./main.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet"> 
@@ -14,22 +13,22 @@
 <body>
     <header>
         <div class="container">
-            <h1>Killer headline</h1>
+            <h1>YOUR HEADLINE HERE</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="#">About the Brand</a>
+                        <a href="#about">About the Brand</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section>
+    <section id="about">
         <div class="container">
-            <img class="ebook-front" img src="./imagens/keto capa.png" alt="Keto Diet Ebook" />
+            <img class="ebook-front" img src="./imagens/loja.jpg" alt="Keto Diet Ebook" />
             <div>
                 <h2>Keto Diet Ebook</h2>
                 <p>
@@ -43,15 +42,15 @@
     </section>
     <section id="contact">
         <div class="container">
-            <h2>Contact</h2>
-            <div>
+            <h2>Get the ebook now!</h2>
+            <div class="contact-methods">
                 <div>
-                    <h3>Reach Out</h3>
+                    <h3>Fill the forms and we'll send you the ebook</h3>
                     <form>
-                        <input type="text" placeholder="Your Name" />
-                        <input type="email" placeholder="Your Email" />
+                        <input type="text" placeholder="Your Name" required />
+                        <input type="email" placeholder="Your Email"required />
                         <input type="tel" placeholder="Your Phone (optional)" />
-                        <textarea placeholder="Your Message"></textarea>
+                        <textarea placeholder="Your Message" required></textarea>
                         <button type="submit">Send</button>
                     </form>
                 </div>
@@ -59,17 +58,17 @@
                     <h3>Follow Us On...</h3>
                     <ul class="social-links">
                         <li>
-                            <a> href="#" title="Instagram"
-                                <img src="./imagens/instagram.avif" alt=" Instagram's Logo "/>
+                            <a href="#" title="Instagram">
+                                <img src="./imagens/instagram.png" alt=" Instagram's Logo " />
                             </a>
                         </li>
                         <li>
-                            <a> href="#" title="Facebook"
-                                <img src="./imagens/facebook.png" alt=" Facebook's Logo "/>
+                            <a href="#" title="Facebook">  
+                                <img src="./imagens/facebook.png" alt=" Facebook's Logo"  />
                             </a>
                         </li><li>
-                            <a> href="#" title="Youtube"
-                                <img src="./imagens/youtube.avif" alt="Youtube's Logo "/>
+                            <a href="#" title="Youtube" >
+                                <img src="./imagens/youtube.png" alt="Youtube's Logo"  />
                             </a>
                         </li>
                     </ul>
@@ -81,5 +80,12 @@
                 </p>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Weight Loss Opt In Page - All rights reserved - 2025
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
